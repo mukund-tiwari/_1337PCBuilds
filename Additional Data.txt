@@ -1,0 +1,26 @@
+using System;
+using System.IO;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.Extensions.Configuration;
+//using Microsoft.Extensions.Configuration.FileExtensions;
+using Microsoft.Extensions.Configuration.Json;
+using System.Linq;
+
+
+var builder = new ConfigurationBuilder()
+                       .SetBasePath(Directory.GetCurrentDirectory())
+                       .AddJsonFile("appsettings.json");
+            var config = builder.Build();
+            var connectionString = config.GetConnectionString("1337PCBuildsDBConnectionString");
+            if (!optionsBuilder.IsConfigured)
+            {
+                optionsBuilder.UseSqlServer(connectionString);
+            }
+
+
+{"Name": "Customer#4",
+ "EmailId" : "cus#4@demo.com",
+ "UseCase": "Video Editing",
+ "Budget": "under 100,000",
+ "AdditionalNotes": "placeholder3"}
