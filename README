@@ -1,0 +1,1 @@
+If you pull this project, you will have to create database using SQLQuery.sql and replace database strings in API and DAL appsettings.json.
