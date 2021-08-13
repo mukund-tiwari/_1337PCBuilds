@@ -452,3 +452,6 @@ $RECYCLE.BIN/
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+1337PCBuilds_WebApp/.vs/1337PCBuilds_WebApp/v16/.suo
+1337PCBuildsDB/1337PCBuildsDB.ldf
+1337PCBuildsDB/1337PCBuildsDB.mdf
