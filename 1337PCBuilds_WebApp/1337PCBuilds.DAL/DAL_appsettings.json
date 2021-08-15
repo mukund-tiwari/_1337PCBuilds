@@ -1,5 +1,0 @@
-{
-  "ConnectionStrings": {
-    "1337PCBuildsDBConnectionString": "Server=tcp:1337pcbuilds-sqlserver.database.windows.net,1433;Initial Catalog=1337PCBuildsDB;Persist Security Info=False;User ID=_1337pcbuildsUser;Password=Malvikaaa$4;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
-  }
-}
