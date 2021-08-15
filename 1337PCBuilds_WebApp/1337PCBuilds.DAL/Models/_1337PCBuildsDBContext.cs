@@ -28,7 +28,7 @@ namespace _1337PCBuilds.DAL.Models
         {
             var builder = new ConfigurationBuilder()
                        .SetBasePath(Directory.GetCurrentDirectory())
-                       .AddJsonFile("appsettings.json");
+                       .AddJsonFile("DAL_appsettings.json");
             var config = builder.Build();
             var connectionString = config.GetConnectionString("1337PCBuildsDBConnectionString");
             if (!optionsBuilder.IsConfigured)
