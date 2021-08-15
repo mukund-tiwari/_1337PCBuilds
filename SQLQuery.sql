@@ -9,8 +9,8 @@ AdditionalNotes varchar(255)
 )
 GO
 
-insert into CustomerPCBuildDetails (EmailId, UseCase, UseCaseNotes, Budget, BudgetCustom, AdditionalNotes)
-values ('cus3@demo.com', 'Video Editing3', 'Use DaVinci3', 'under 75,000', 'under 70k', 'placeholder text3')
+insert into CustomerPCBuildDetails ([Name], EmailId, UseCase, Budget, AdditionalNotes)
+values ('Customer#1', 'cus#1@gmail.com', 'Gaming', 'under INR 50,000', 'placeholder text3')
 GO
 
 select * from CustomerPCBuildDetails
