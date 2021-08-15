@@ -5,6 +5,7 @@
 
 #my-changes
 appsettings.json
+DAL_appsettings.json
 
 # User-specific files
 *.rsuser
