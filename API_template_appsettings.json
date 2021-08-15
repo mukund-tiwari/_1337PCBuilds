@@ -8,6 +8,6 @@
   },
   "AllowedHosts": "*",
   "ConnectionStrings": {
-    "1337PCBuildsDBConnectionString": ""
+    "1337PCBuildsDBConnectionString": "data source=(localdb)\\MSSQLLocalDB;initial catalog=_1337PCBuildsDB;Integrated Security=true"
   }
 }

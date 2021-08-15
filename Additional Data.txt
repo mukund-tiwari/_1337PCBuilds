@@ -24,3 +24,8 @@ var builder = new ConfigurationBuilder()
  "UseCase": "Video Editing",
  "Budget": "under 100,000",
  "AdditionalNotes": "placeholder3"}
+
+
+1. git rm -r --cached .  
+2. git add .
+3. git commit -m 'Removing ignored files'
