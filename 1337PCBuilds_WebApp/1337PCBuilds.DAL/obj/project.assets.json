@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {
+    "net6.0": {
       "Humanizer.Core/2.8.26": {
         "type": "package",
         "compile": {
@@ -5991,7 +5991,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net5.0": [
+    "net6.0": [
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.8",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.8",
       "Microsoft.Extensions.Configuration >= 5.0.0",
@@ -6000,7 +6000,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Mukund Tiwari\\.nuget\\packages\\": {}
+    "C:\\Users\\mukun\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -6008,23 +6008,23 @@
       "projectUniqueName": "D:\\1337 PC Builds Project\\1337PCBuilds_WebApp\\1337PCBuilds.DAL\\1337PCBuilds.DAL.csproj",
       "projectName": "1337PCBuilds.DAL",
       "projectPath": "D:\\1337 PC Builds Project\\1337PCBuilds_WebApp\\1337PCBuilds.DAL\\1337PCBuilds.DAL.csproj",
-      "packagesPath": "C:\\Users\\Mukund Tiwari\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\mukun\\.nuget\\packages\\",
       "outputPath": "D:\\1337 PC Builds Project\\1337PCBuilds_WebApp\\1337PCBuilds.DAL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Mukund Tiwari\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mukun\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net5.0"
+        "net6.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "projectReferences": {}
         }
       },
@@ -6035,8 +6035,8 @@
       }
     },
     "frameworks": {
-      "net5.0": {
-        "targetAlias": "net5.0",
+      "net6.0": {
+        "targetAlias": "net6.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
@@ -6076,7 +6076,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.7.21379.14\\RuntimeIdentifierGraph.json"
       }
     }
   }

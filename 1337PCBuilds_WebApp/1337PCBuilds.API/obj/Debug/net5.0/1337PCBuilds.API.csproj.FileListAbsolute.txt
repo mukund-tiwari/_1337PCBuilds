@@ -51,7 +51,6 @@ D:\1337 PC Builds Project\1337PCBuilds_WebApp\1337PCBuilds.API\obj\Debug\net5.0\
 D:\1337 PC Builds Project\1337PCBuilds_WebApp\1337PCBuilds.API\obj\Debug\net5.0\1337PCBuilds.API.MvcApplicationPartsAssemblyInfo.cs
 D:\1337 PC Builds Project\1337PCBuilds_WebApp\1337PCBuilds.API\obj\Debug\net5.0\1337PCBuilds.API.MvcApplicationPartsAssemblyInfo.cache
 D:\1337 PC Builds Project\1337PCBuilds_WebApp\1337PCBuilds.API\obj\Debug\net5.0\staticwebassets\1337PCBuilds.API.StaticWebAssets.Manifest.cache
-D:\1337 PC Builds Project\1337PCBuilds_WebApp\1337PCBuilds.API\obj\Debug\net5.0\staticwebassets\1337PCBuilds.API.StaticWebAssets.xml
 D:\1337 PC Builds Project\1337PCBuilds_WebApp\1337PCBuilds.API\obj\Debug\net5.0\scopedcss\bundle\1337PCBuilds.API.styles.css
 D:\1337 PC Builds Project\1337PCBuilds_WebApp\1337PCBuilds.API\obj\Debug\net5.0\1337PCBuilds.API.RazorTargetAssemblyInfo.cache
 D:\1337 PC Builds Project\1337PCBuilds_WebApp\1337PCBuilds.API\obj\Debug\net5.0\1337PCBuilds.API.csproj.CopyComplete
@@ -59,3 +58,4 @@ D:\1337 PC Builds Project\1337PCBuilds_WebApp\1337PCBuilds.API\obj\Debug\net5.0\
 D:\1337 PC Builds Project\1337PCBuilds_WebApp\1337PCBuilds.API\obj\Debug\net5.0\ref\1337PCBuilds.API.dll
 D:\1337 PC Builds Project\1337PCBuilds_WebApp\1337PCBuilds.API\obj\Debug\net5.0\1337PCBuilds.API.pdb
 D:\1337 PC Builds Project\1337PCBuilds_WebApp\1337PCBuilds.API\obj\Debug\net5.0\1337PCBuilds.API.genruntimeconfig.cache
+D:\1337 PC Builds Project\1337PCBuilds_WebApp\1337PCBuilds.API\bin\Debug\net5.0\1337PCBuilds.API.StaticWebAssets.xml

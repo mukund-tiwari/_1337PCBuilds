@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\Mukund Tiwari\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\Mukund Tiwari\\.nuget\\packages"
+      "C:\\Users\\mukun\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\mukun\\.nuget\\packages"
     ]
   }
 }
