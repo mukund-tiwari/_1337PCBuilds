@@ -6,6 +6,7 @@
 #my-ignored-files
 appsettings.json
 DAL_appsettings.json
+homepage-service.service.ts
 
 # User-specific files
 *.rsuser
