@@ -1,2 +1,4 @@
 If you pull this project, you will have to create database using SQLQuery.sql and replace database strings in API and DAL appsettings.json.
 You will have to create your own "appsettings.json" both in DAL and API, using provided templates and you will have to replace the connection string.
+
+Angular service has been removed as it had sensitive data. Use template provided. Place it in /src/app-services.
