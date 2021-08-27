@@ -10,9 +10,9 @@
 
 <ng-template #formModal let-modal>
     <div class="modal-header">
-      <h4 class="modal-title" id="modal-basic-title">Fill in your details</h4>
-      <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
-        <span aria-hidden="true">&times;</span>
+      <h4 class="modal-title" id="modal-basic-title"><strong>Fill in your Details</strong></h4>
+      <button mat-mini-fab color="warn"  aria-label="Close" (click)="modal.dismiss('Cross click')">
+        <span aria-hidden="true"><mat-icon>close</mat-icon></span>
       </button>
     </div>
     <div class="modal-body">

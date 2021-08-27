@@ -7,10 +7,20 @@
                 1337 PC Builds
             </a> 
         </div>
+       
         <ul class="nav navbar-nav navbar-right">
-            <li><a target="_blank" href="https://twitter.com/mukund_tiwari1"><span class="fab fa-twitter fa-lg" style="color:whitesmoke; margin-right: 10px;"></span> </a></li> 
-            &nbsp;
-            <li><a target="_blank" href="https://youtube.com/c/MukundTiwari"><span class="fab fa-youtube fa-lg" style="color: whitesmoke; margin-left: 10px;"></span> </a></li>
+            <button mat-icon-button style="color: whitesmoke;" [matMenuTriggerFor]="menu">
+                <mat-icon>more_vert</mat-icon>
+            </button>
+            <mat-menu #menu>
+                <a mat-menu-item target="_blank" href="https://twitter.com/mukund_tiwari1"><span class="fab fa-twitter fa-lg" style="color:whitesmoke; "></span> </a>
+                <a mat-menu-item target="_blank" href="https://youtube.com/c/MukundTiwari"><span class="fab fa-youtube fa-lg" style="color: whitesmoke;"></span> </a>
+            </mat-menu>
+            <!-- <li><a target="_blank" href="https://twitter.com/mukund_tiwari1"><span class="fab fa-twitter fa-lg" style="color:whitesmoke; margin-right: 10px;"></span> </a></li> 
+                &nbsp;
+            <li><a target="_blank" href="https://youtube.com/c/MukundTiwari"><span class="fab fa-youtube fa-lg" style="color: whitesmoke; margin-left: 10px;"></span> </a></li> -->
         </ul>
+        
+        
     </div>
 </nav>

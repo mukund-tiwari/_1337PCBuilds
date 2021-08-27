@@ -14,13 +14,7 @@ export class MainContentComponent implements OnInit {
   } 
 
   open(content:any){
-    // this.modalService.open(content, {ariaLabelledBy: 'modal-basic-title'}).result.then((result)=>{
-    //   console.log("modal open");
-      
-    // }), (reason:any) =>{
-    //   console.log(reason);
-    // }
-    this.modalService.open(content, {centered:true, backdropClass:'.black-backdrop'});
+    this.modalService.open(content, {centered:true, backdropClass:'.black-backdrop', scrollable:true});
   }
    
   
