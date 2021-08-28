@@ -16,7 +16,4 @@ export class MainContentComponent implements OnInit {
   open(content:any){
     this.modalService.open(content, {centered:true, backdropClass:'.black-backdrop', scrollable:true});
   }
-   
-  
-
 }
