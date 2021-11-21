@@ -1,0 +1,28 @@
+<!-- <p>toolbar works!</p> -->
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <div class="container-fluid inline">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">
+               <img src="../../../favicon.ico"> 
+                1337 PC Builds
+            </a> 
+        </div>
+       
+        <ul class="nav navbar-nav navbar-right">
+            <button mat-icon-button style="color: whitesmoke;" [matMenuTriggerFor]="menu">
+                <mat-icon>more_vert</mat-icon>
+            </button>
+            <mat-menu #menu>
+                <a style="text-align: center;" mat-menu-item target="_blank" href="https://twitter.com/mukund_tiwari1"><span class="fab fa-twitter fa-lg" style="color:whitesmoke;"></span> </a>
+                <a style="text-align: center;" mat-menu-item target="_blank" href="https://youtube.com/c/MukundTiwari"><span class="fab fa-youtube fa-lg" style="color: whitesmoke;"></span> </a>
+                <a style="text-align: center;" mat-menu-item target="_blank" href="https://www.linkedin.com/in/mukund-tiwari-184203191/"><span class="fab fa-linkedin fa-lg" style="color: whitesmoke;"></span> </a>
+                <a style="text-align: center;" mat-menu-item target="_blank" href="https://github.com/mukund-tiwari/"><span class="fab fa-github fa-lg" style="color: whitesmoke;"></span> </a>
+            </mat-menu>
+            <!-- <li><a target="_blank" href="https://twitter.com/mukund_tiwari1"><span class="fab fa-twitter fa-lg" style="color:whitesmoke; margin-right: 10px;"></span> </a></li> 
+                &nbsp;
+            <li><a target="_blank" href="https://youtube.com/c/MukundTiwari"><span class="fab fa-youtube fa-lg" style="color: whitesmoke; margin-left: 10px;"></span> </a></li> -->
+        </ul>
+        
+        
+    </div>
+</nav>

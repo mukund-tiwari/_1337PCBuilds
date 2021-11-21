@@ -7,6 +7,10 @@
 appsettings.json
 DAL_appsettings.json
 homepage-service.service.ts
+1337PCBuilds_WebApp/.vs/1337PCBuilds_WebApp/v16/.suo
+1337PCBuildsDB/1337PCBuildsDB.ldf
+1337PCBuildsDB/1337PCBuildsDB.mdf
+1337PCBuilds_WebApp/1337PCBuilds.API/.vscode/*
 
 # User-specific files
 *.rsuser
@@ -458,6 +462,3 @@ $RECYCLE.BIN/
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
-1337PCBuilds_WebApp/.vs/1337PCBuilds_WebApp/v16/.suo
-1337PCBuildsDB/1337PCBuildsDB.ldf
-1337PCBuildsDB/1337PCBuildsDB.mdf

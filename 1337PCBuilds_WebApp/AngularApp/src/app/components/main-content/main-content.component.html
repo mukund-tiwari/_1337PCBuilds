@@ -1,0 +1,22 @@
+<!-- <p>main-content works!</p> -->
+<div class="main text-center container-fluid"> 
+    <p style="font-family: 'Roboto', sans-serif;">
+        We offer high quality, value for money, and custom PC Builds handcrafted by a hardware enthusiast, an engineer and a gamer.<br>
+        <br>
+        Our deep technical know how and extensive exposure to hardware market make sure that you get the best performing and most quality build for the money.
+    </p>
+    <button class="btn btn-info btn-lg" (click)="open(formModal)" style="margin-bottom: 20px;">Let's Go!</button>
+</div>
+
+<ng-template #formModal let-modal>
+    <div class="modal-header">
+      <h4 class="modal-title" id="modal-basic-title"><strong>Fill in your details</strong></h4>
+      <button mat-mini-fab color="warn"  aria-label="Close" (click)="modal.dismiss('Cross click')">
+        <span aria-hidden="true"><mat-icon>close</mat-icon></span>
+      </button>
+    </div>
+    <div class="modal-body">
+      <app-details-form></app-details-form>
+    </div>
+  </ng-template>
+  

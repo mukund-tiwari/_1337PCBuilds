@@ -1,0 +1,48 @@
+<!-- <p>details-form works!</p> -->
+<mat-card>
+   
+    <form [formGroup]="detailsForm" class="text-center"> 
+        <mat-form-field appearance="fill">
+            <mat-label>Name</mat-label>
+            <input matInput type="text" formControlName="name">
+            <button mat-icon-button matSuffix>
+                <mat-icon>person_outline</mat-icon>
+            </button>
+        </mat-form-field>
+        <br>
+        <mat-form-field appearance="fill">
+            <mat-label>Email</mat-label>
+            <input matInput type="email" placeholder="sam@example.com" formControlName="email" autocomplete=disabled>
+            <button mat-icon-button matSuffix>
+                <mat-icon>mail</mat-icon>
+            </button>
+        </mat-form-field>
+        <br>
+        <mat-form-field appearance="fill">
+            <mat-label>Use Case</mat-label>
+            <mat-select formControlName="use" panelClass="panelcolor">
+                <mat-option value="Gaming">Gaming</mat-option>
+                <mat-option value="Photo/Video Editing">Photo/Video Editing</mat-option>
+                <mat-option value="Office/Productivity">Office/Productivity</mat-option>
+            </mat-select>
+        </mat-form-field>
+        &nbsp;
+        <mat-form-field appearance="fill">
+            <mat-label>Budget</mat-label>
+            <mat-select formControlName="budget" panelClass="panelcolor">
+                <mat-option value="Under INR 25000">Under INR 25,000</mat-option>
+                <mat-option value="Under INR 50000">Under INR 50,000</mat-option>
+                <mat-option value="Under INR 100000">Under INR 1,00,000</mat-option>
+                <mat-option value="Under INR 300000">Under INR 3,00,000</mat-option>
+            </mat-select>
+        </mat-form-field>
+        <br>
+        <mat-form-field  appearance="fill">
+            <mat-label>Additional notes</mat-label>
+            <textarea  matInput placeholder="Any additional comments (optional)" maxlength="250" formControlName="notes" #note style="resize: none;" rows=4></textarea>
+            <mat-hint align="end">{{note.value.length}}/250</mat-hint>
+        </mat-form-field>
+        <br>
+        <button mat-raised-button color="accent" class="btn-lg" (click)='AddDetails()'>Submit</button>
+    </form>
+</mat-card>
