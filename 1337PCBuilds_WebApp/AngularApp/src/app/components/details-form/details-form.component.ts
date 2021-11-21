@@ -11,7 +11,7 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 })
 export class DetailsFormComponent implements OnInit {
   detailsForm = new FormGroup({}) 
-  constructor(private formBuilder:FormBuilder) { }
+  constructor(private formBuilder:FormBuilder, private _homepageService: HomepageServiceService) { }
 
   ngOnInit(): void {
     this.detailsForm = this.formBuilder.group({
