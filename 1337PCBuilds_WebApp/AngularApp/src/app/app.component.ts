@@ -15,11 +15,11 @@ export class AppComponent implements OnInit{
   //showDiv = false;
   //msg = '';
   title = '1337PCBuildsApp';
-  //constructor(private _homepageService: HomepageServiceService) { }
+  ////constructor(private _homepageService: HomepageServiceService) { }
   ngOnInit() { }
-  AddDetails(form: NgForm) {
+  //AddDetails(form: NgForm) {
     
 
    
-  }
+  //}
 }
