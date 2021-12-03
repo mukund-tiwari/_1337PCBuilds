@@ -3,5 +3,4 @@ You will have to create your own "appsettings.json" both in DAL and API, using p
 
 Angular service has been removed as it had sensitive data. Use template provided. Place it in /src/app-services.
 
-GKE deployment video:
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/vrL2ihR5_cw/0.jpg)](https://www.youtube.com/watch?v=vrL2ihR5_cw)
+GKE deployment video: https://youtu.be/vrL2ihR5_cw
